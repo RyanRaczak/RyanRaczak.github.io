@@ -1,0 +1,39 @@
+table{
+    display: block;
+    margin: auto;
+    max-height: 500px;
+    max-width: 500px; 
+} 
+html{
+    background-color: #272524;
+    color: white;
+    font-size: larger;
+    display: block;
+    margin: auto;
+    max-height: 500px;
+    max-width: 500px;
+}
+a:link{
+    color: #25333b;
+}
+a:visited{
+    color: #40546c;
+}
+a:hover{
+    color: #40546c;
+}
+a:active{
+    color: #40546c;
+}
+nav {
+    background:#272524;
+    height:70px;
+    z-index:999;
+    margin:0 auto;
+    border-bottom:2px solid #40546c;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+}
